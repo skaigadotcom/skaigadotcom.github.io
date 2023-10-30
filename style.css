@@ -41,17 +41,22 @@ img {
     object-fit: contain;
 }
 
-.candy-emoji {
+.falling-candy {
     position: absolute;
-    font-size: 200px; /* Make the candy emoji larger */
-    animation: fall 2s linear; /* Adjust animation duration as needed */
+    font-size: 2rem;
+    user-select: none;
 }
 
-@keyframes fall {
-    from {
-        transform: translateY(0);
-    }
+/* Customize the candy emoji style */
+.falling-candy:before {
+    content: '🍬';
+    display: block;
+}
+
+/* Animation */
+@keyframes candy-fall {
     to {
         transform: translateY(100vh);
+        transform: translateX(var(--horizontal-velocity));
     }
 }
