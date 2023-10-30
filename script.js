@@ -21,3 +21,13 @@ function displayRandomImage() {
 
 refreshButton.addEventListener('click', displayRandomImage);
 displayRandomImage();
+
+document.addEventListener('touchstart', (event) => {
+    const candyEmoji = document.createElement('div');
+    candyEmoji.textContent = '🍬';
+    candyEmoji.style.position = 'absolute';
+    candyEmoji.style.left = event.touches[0].clientX + 'px';
+    candyEmoji.style.top = event.touches[0].clientY + 'px';
+    candyEmoji.style.fontSize = '24px'; // Adjust the size as needed
+    document.body.appendChild(candyEmoji);
+});
