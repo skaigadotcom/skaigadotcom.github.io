@@ -23,6 +23,17 @@ button {
     color: #fff;
     border: none;
     cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #FF8C00;
 }
 
 img {
