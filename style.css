@@ -45,14 +45,3 @@ img {
     max-height: 100%;
     height: auto; /* Maintain the image's aspect ratio */
 }
-
-/* Responsive design for smaller screens, such as mobile phones */
-@media screen and (max-width: 768px) {
-    .container {
-        margin-top: 10px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-}
