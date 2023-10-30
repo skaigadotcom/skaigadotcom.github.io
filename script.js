@@ -1,10 +1,8 @@
 const content = document.getElementById('content');
 const refreshButton = document.getElementById('refreshButton');
 
-// Create an array of image filenames in your "images" folder using a for loop
 const images = [];
-const numImages = 9; // Change this to the total number of images
-
+const numImages = 9;
 for (let i = 1; i <= numImages; i++) {
     images.push(`images/${i}.jpg`);
 }
