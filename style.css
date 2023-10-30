@@ -34,5 +34,22 @@ button:hover {
 }
 
 img {
-    width: 100%; /* Maintain the aspect ratio */
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
+
+    @media screen and (orientation: landscape) {
+        img {
+            width: auto;
+            height: 100%;
+        }
+    }
 }
