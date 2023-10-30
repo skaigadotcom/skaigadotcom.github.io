@@ -7,6 +7,9 @@ body {
     justify-content: center;
 }
 
+.container {
+}
+
 .content {
     background-color: #fff;
     text-align: center;
