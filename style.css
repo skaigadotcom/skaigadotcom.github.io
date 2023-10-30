@@ -25,7 +25,7 @@ button {
     width: 35%;
     height: 100px;
     padding: 15px 0;
-    background-color: #FFA500; /* Regular button color (orange) */
+    background-color: #FF8C00; /* Regular button color (orange) */
     color: #fff;
     border: none;
     cursor: pointer;
@@ -36,10 +36,6 @@ button {
     font-size: 30px;
     border-radius: 40px;
     transition: all 0.1s ease;
-}
-
-button:hover {
-    background-color: #FF8C00;
 }
 
 button:active {
