@@ -24,7 +24,8 @@ button {
 }
 
 img {
-    max-height: 500px; /* Adjust the height as needed */
+    min-height: 500px;
+    max-height: 500px;
     width: auto; /* Maintain the aspect ratio */
 }
 
