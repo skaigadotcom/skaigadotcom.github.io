@@ -22,7 +22,7 @@ body {
 }
 
 button {
-    width: 50%;
+    width: 35%;
     height: 100px;
     padding: 15px 0;
     background-color: #FFA500; /* Regular button color (orange) */
