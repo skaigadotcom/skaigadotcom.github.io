@@ -43,7 +43,7 @@ img {
 
 .candy-emoji {
     position: absolute;
-    font-size: 36px; /* Make the candy emoji larger */
+    font-size: 80px; /* Make the candy emoji larger */
     animation: fall 2s linear; /* Adjust animation duration as needed */
 }
 
