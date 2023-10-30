@@ -23,8 +23,10 @@ refreshButton.addEventListener('click', displayRandomImage);
 displayRandomImage();
 
 document.addEventListener('touchstart', (event) => {
+    const emojiOptions = ['🎃', '👻', '🦇', '🕷️', '🍭', '🕸️', '🦉', '🌕', '🍬'];
+    const randomEmoji = emojiOptions[Math.floor(Math.random() * emojiOptions.length)];
     const candyEmoji = document.createElement('div');
-    candyEmoji.textContent = '🍬';
+    candyEmoji.textContent = randomEmoji;
     candyEmoji.classList.add('candy-emoji');
     document.body.appendChild(candyEmoji);
 
