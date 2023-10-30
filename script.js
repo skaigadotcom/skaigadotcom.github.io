@@ -22,23 +22,19 @@ function displayRandomImage() {
 refreshButton.addEventListener('click', displayRandomImage);
 displayRandomImage();
 
-document.addEventListener('DOMContentLoaded', () => {
-    const candy = document.querySelector('.falling-candy');
+document.addEventListener('touchstart', (event) => {
+    const candyEmoji = document.createElement('div');
+    candyEmoji.textContent = '🍬';
+    candyEmoji.classList.add('candy-emoji');
+    document.body.appendChild(candyEmoji);
 
-    // Set initial random horizontal velocity
-    const randomHorizontalVelocity = Math.random() > 0.5 ? '2px' : '-2px';
-    candy.style.setProperty('--horizontal-velocity', randomHorizontalVelocity);
+    const x = event.touches[0].clientX;
+    const y = event.touches[0].clientY;
+    candyEmoji.style.left = x + 'px';
+    candyEmoji.style.top = y + 'px';
 
-    // Set initial random vertical velocity
-    const initialVerticalVelocity = Math.random() * 4 - 8;
-    candy.style.transform = `translateY(-10vh) translateX(${randomHorizontalVelocity})`;
-
-    // Apply the falling animation
-    candy.style.animation = `candy-fall ${Math.random() * 3 + 2}s ease-in infinite`;
-
-    // Add click event to reposition the candy
-    document.addEventListener('click', (e) => {
-        const touchX = e.clientX;
-        candy.style.transform = `translate(${touchX}px, -10vh)`;
-    });
+    setTimeout(() => {
+        candyEmoji.style.transform = 'scale(2) translateY(100vh)';
+        candyEmoji.style.opacity = '0';
+    }, 100); // Adjust the duration as needed
 });
