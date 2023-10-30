@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: transparent;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +13,7 @@ body {
 
 .content {
     padding: 20px;
-    background-color: transparent;
+    background-color: #000000;
 }
 
 button {
@@ -34,6 +34,10 @@ button {
 
 button:hover {
     background-color: #FF8C00;
+}
+
+button:active {
+    background-color: #FF6347;
 }
 
 img {
