@@ -45,7 +45,7 @@ img {
 .candy-emoji {
     position: absolute;
     font-size: 200px; /* Make the candy emoji larger */
-    animation: fall 2s linear; /* Adjust animation duration as needed */
+    animation: fall 2s cubic-bezier(0.34, 0.98, 0.41, 0.67); /* Adjust animation duration as needed */
 }
 
 @keyframes fall {
