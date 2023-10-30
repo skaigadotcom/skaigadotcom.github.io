@@ -37,12 +37,15 @@ document.addEventListener('touchstart', (event) => {
     const initialY = y;
     const duration = 2000; // Adjust the duration as needed
     const gravity = 9.8; // Acceleration due to gravity in m/s^2
+    const horizontalVelocity = (Math.random() < 0.5 ? 1 : -1) * 2; // Randomize direction
 
     function updatePosition() {
         const currentTime = performance.now();
         const elapsed = currentTime - startTime;
         const newY = initialY + 0.5 * gravity * (elapsed / 1000) ** 2;
+        const newX = x + horizontalVelocity * (elapsed / 1000);
         candyEmoji.style.top = newY + 'px';
+        candyEmoji.style.left = newX + 'px';
 
         if (elapsed < duration) {
             requestAnimationFrame(updatePosition);
