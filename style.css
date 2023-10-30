@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 24px;
     text-align: center;
-    background-color: #000000;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,7 +17,7 @@ body {
 
 .content {
     padding: 20px;
-    background-color: #000000;
+    background-color: #fff;
     test-align: center;
 }
 
