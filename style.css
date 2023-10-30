@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #000000;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -24,4 +26,14 @@ button {
 img {
     max-height: 500px; /* Adjust the height as needed */
     width: auto; /* Maintain the aspect ratio */
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: 10px;
+    }
+
+    .content {
+        padding: 10px;
+    }
 }
