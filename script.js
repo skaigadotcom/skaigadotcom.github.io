@@ -36,5 +36,5 @@ document.addEventListener('touchstart', (event) => {
     setTimeout(() => {
         candyEmoji.style.transform = 'scale(2) translateY(100vh)';
         candyEmoji.style.opacity = '0';
-    }, 100); // Adjust the duration as needed
+    }, 2000); // Adjust the duration as needed
 });
