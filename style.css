@@ -7,10 +7,6 @@ body {
     justify-content: center;
 }
 
-.container {
-    position: relative;
-}
-
 .content {
     background-color: #fff;
     text-align: center;
