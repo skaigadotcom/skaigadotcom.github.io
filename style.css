@@ -2,8 +2,6 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,12 +9,10 @@ body {
 }
 
 .container {
-    margin-top: 20px;
     position: relative;
 }
 
 .content {
-    padding: 20px;
     background-color: #fff;
     text-align: center;
 }
@@ -24,7 +20,6 @@ body {
 button {
     width: 35%;
     height: 100px;
-    padding: 15px 0;
     background-color: #FF8C00; /* Regular button color (orange) */
     color: #fff;
     border: none;
@@ -45,6 +40,5 @@ button:active {
 img {
     max-width: 100%;
     max-height: 100%;
-    height: auto; /* Maintain the image's aspect ratio */
     object-fit: contain;
 }
