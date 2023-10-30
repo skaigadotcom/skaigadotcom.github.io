@@ -37,9 +37,7 @@ button:hover {
 }
 
 img {
-    min-height: 500px;
-    max-height: 500px;
-    width: auto; /* Maintain the aspect ratio */
+    width: 100%; /* Maintain the aspect ratio */
 }
 
 @media screen and (max-width: 768px) {
