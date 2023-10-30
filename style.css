@@ -21,16 +21,18 @@ body {
 }
 
 button {
-    padding: 15px 30px;
+    width: 50%;
+    height: 100px;
+    padding: 15px 0;
     background-color: #FFA500; /* Regular button color (orange) */
     color: #fff;
     border: none;
     cursor: pointer;
     position: fixed; /* Anchor the button to the bottom of the viewport */
-    bottom: 20px; /* Distance from the bottom of the viewport */
+    bottom: 40px; /* Distance from the bottom of the viewport */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 20px;
+    font-size: 24px;
     border-radius: 5px;
     transition: all 0.1s ease;
 }
