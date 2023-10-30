@@ -25,16 +25,9 @@ displayRandomImage();
 document.addEventListener('touchstart', (event) => {
     const candyEmoji = document.createElement('div');
     candyEmoji.textContent = '🍬';
-    candyEmoji.classList.add('candy-emoji');
+    candyEmoji.style.position = 'absolute';
+    candyEmoji.style.left = event.touches[0].clientX + 'px';
+    candyEmoji.style.top = event.touches[0].clientY + 'px';
+    candyEmoji.style.fontSize = '24px'; // Adjust the size as needed
     document.body.appendChild(candyEmoji);
-
-    const x = event.touches[0].clientX;
-    const y = event.touches[0].clientY;
-    candyEmoji.style.left = x + 'px';
-    candyEmoji.style.top = y + 'px';
-
-    setTimeout(() => {
-        candyEmoji.style.transform = 'scale(2) translateY(100vh)';
-        candyEmoji.style.opacity = '0';
-    }, 100); // Adjust the duration as needed
 });
