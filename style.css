@@ -18,13 +18,12 @@ body {
 
 button {
     padding: 10px 20px;
-    padding-top: 10px; 
-    background-color: #ffa500;
+    background-color: #FFA500; /* Regular button color (orange) */
     color: #fff;
     border: none;
     cursor: pointer;
-    position: absolute;
-    top: 0;
+    position: fixed; /* Anchor the button to the bottom of the viewport */
+    bottom: 20px; /* Distance from the bottom of the viewport */
     left: 50%;
     transform: translateX(-50%);
     font-size: 16px;
