@@ -33,26 +33,30 @@ document.addEventListener('touchstart', (event) => {
     candyEmoji.style.left = x + 'px';
     candyEmoji.style.top = y + 'px';
 
-    const startTime = performance.now(); // Get the start time in milliseconds
+    const startTime = performance.now();
     const initialY = y;
-    const duration = 2000; // Adjust the duration as needed
-    const gravity = 9.8; // Acceleration due to gravity in m/s^2
-    const horizontalVelocity = (Math.random() < 0.5 ? 1 : -1) * 2; // Randomize direction
+    const initialX = x;
+    const initialVerticalVelocity = -10; // Initial positive velocity
+    const duration = 2000;
+    const gravity = 9.8;
+    const horizontalVelocity = (Math.random() < 0.5 ? 1 : -1) * 2;
 
     function updatePosition() {
         const currentTime = performance.now();
         const elapsed = currentTime - startTime;
-        const newY = initialY + 0.5 * gravity * (elapsed / 1000) ** 2;
-        const newX = x + horizontalVelocity * (elapsed / 1000);
+        const verticalVelocity = initialVerticalVelocity + gravity * (elapsed / 1000);
+        const newY = initialY + verticalVelocity * (elapsed / 1000) + 0.5 * gravity * (elapsed / 1000) ** 2;
+        const newX = initialX + horizontalVelocity * (elapsed / 1000);
         candyEmoji.style.top = newY + 'px';
         candyEmoji.style.left = newX + 'px';
 
         if (elapsed < duration) {
             requestAnimationFrame(updatePosition);
         } else {
-            candyEmoji.remove(); // Remove the emoji when the animation is complete
+            candyEmoji.remove();
         }
     }
 
     requestAnimationFrame(updatePosition);
 });
+
