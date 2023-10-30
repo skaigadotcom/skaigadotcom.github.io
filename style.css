@@ -39,13 +39,3 @@ button:hover {
 img {
     width: 100%; /* Maintain the aspect ratio */
 }
-
-@media screen and (max-width: 768px) {
-    .container {
-        margin-top: 10px;
-    }
-
-    .content {
-        padding: 10px;
-    }
-}
