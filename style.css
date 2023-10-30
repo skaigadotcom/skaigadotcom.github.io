@@ -26,7 +26,7 @@ button {
     border: none;
     cursor: pointer;
     position: fixed; /* Anchor the button to the bottom of the viewport */
-    bottom: 40px; /* Distance from the bottom of the viewport */
+    top: 40px; /* Distance from the bottom of the viewport */
     left: 50%;
     transform: translateX(-50%);
     font-size: 30px;
