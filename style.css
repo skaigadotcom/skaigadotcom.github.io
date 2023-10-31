@@ -79,7 +79,7 @@ img {
 
 .candy-emoji {
     position: absolute;
-    font-size: 200px; /* Make the candy emoji larger */
+    font-size: 150px; /* Make the candy emoji larger */
     animation: fall 2s cubic-bezier(0.33333, 0, 0.66667, 0.33333);
     overflow: hidden;
 }
