@@ -45,12 +45,12 @@ body {
         opacity: 1;
         color: darkorange;
     }
-    20% {
+    60% {
         color: darkred;
     }
     100% {
         opacity: 0;
-        color: black;
+        color: darkred;
         display: none;
     }
 }
