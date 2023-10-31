@@ -71,7 +71,7 @@ body {
 button {
     width: 35%;
     height: 100px;
-    background-color: #FF8C00; /* Regular button color (orange) */
+    background-color: #FF8C0050; /* Regular button color (orange) */
     color: #fff;
     border: none;
     cursor: pointer;
