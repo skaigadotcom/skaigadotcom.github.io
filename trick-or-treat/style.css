@@ -11,10 +11,14 @@ body {
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+    touch-action: none;
 }
 
 .container {
     user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: none;
     overflow: hidden;
 	padding-top: 100px;
 }
@@ -24,6 +28,9 @@ body {
     text-align: center;
     z-index: 888;
     user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: none;
 }
 
 #halloweenMessage {
@@ -40,10 +47,10 @@ body {
     max-width: 90%;
     max-height: 90%
     overflow: hidden;
-    touch-action: pan-x pan-y;
     user-select: none;
-    -webkit-user-select: none;
     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: none;
 }
 
 @keyframes fadeOut {
@@ -78,10 +85,10 @@ button {
     border-radius: 40px;
     transition: all 0.1s ease;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.75);
-    touch-action: pan-x pan-y;
     user-select: none;
-    -webkit-user-select: none;
     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: none;
     overflow: hidden;
 }
 
@@ -91,14 +98,15 @@ button:active {
 
 img {
     display: block;
-    height: 95vh;
-    width: 100vw;
+    height: 90vh;
+    width: 95vw;
     margin: 0 auto;
     max-width: 100%;
     object-fit: contain;
     user-select: none;
-    -webkit-user-select: none;
     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    touch-action: none;
 }
 
 .candy-emoji {
@@ -109,7 +117,7 @@ img {
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-    touch-action: pan-x pan-y;
+    touch-action: none;
 }
 
 @keyframes fall {
@@ -122,8 +130,9 @@ img {
 }
 
 :root {
-    touch-action: pan-x pan-y;
     height: 100%;
     user-select: none;
+    -webkit-touch-callout: none;
     -webkit-user-select: none;
+    touch-action: none;
 }
