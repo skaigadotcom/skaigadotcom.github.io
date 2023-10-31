@@ -2,7 +2,7 @@ const content = document.getElementById('content');
 const refreshButton = document.getElementById('refreshButton');
 
 const images = [];
-const numImages = 20;
+const numImages = 34;
 
 for (let i = 1; i <= numImages; i++) {
     images.push(`images/${i}.jpg`);
