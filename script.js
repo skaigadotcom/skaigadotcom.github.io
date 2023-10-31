@@ -23,7 +23,7 @@ refreshButton.addEventListener('click', displayRandomImage);
 displayRandomImage();
 
 document.addEventListener('touchstart', (event) => {
-    const emojiOptions = ['🎃', '👻', '🦇', '🕷️', '🍭', '🕸️', '🦉', '🌕', '🍬', '🩸', '🧛‍♂️', '⚰️', '🧟'];
+    const emojiOptions = ['🎃', '👻', '🦇', '🕷️', '🍭', '🕸️', '🦉', '🌕', '🍬', '🩸', '🧛‍♂️', '⚰️', '🧟', 'FAFSA Simplification'];
     const randomEmoji = emojiOptions[Math.floor(Math.random() * emojiOptions.length)];
     const candyEmoji = document.createElement('div');
     candyEmoji.textContent = randomEmoji;
