@@ -32,6 +32,16 @@ body {
     z-index: 999; /* Ensure it's in front of other content */
 }
 
+@keyframes fadeOut {
+    0% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
 #halloweenMessage {
     position: absolute;
     top: 50%;
