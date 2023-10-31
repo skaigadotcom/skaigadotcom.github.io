@@ -9,6 +9,7 @@ body {
     height: 100%;
     position: fixed;
     user-select: none;
+    -webkit-touch-callout: none;
 }
 
 .container {
