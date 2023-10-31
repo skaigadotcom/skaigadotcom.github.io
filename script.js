@@ -46,5 +46,5 @@ window.addEventListener('load', function() {
     setTimeout(function() {
         var halloweenMessage = document.getElementById('halloweenMessage');
         halloweenMessage.style.animation = 'fadeOut 1s linear';
-    }, 3000); // animation delay (ms)
+    }, 7000); // animation delay (ms)
 });
