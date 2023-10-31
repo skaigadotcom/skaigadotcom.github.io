@@ -19,29 +19,6 @@ body {
     z-index: 888;
 }
 
-#messageContainer {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8); /* Background panel color with opacity */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999; /* Ensure it's in front of other content */
-}
-
-@keyframes fadeOut {
-    0% {
-        opacity: 0.8;
-    }
-    100% {
-        opacity: 0;
-        display: none;
-    }
-}
-
 #halloweenMessage {
     position: absolute;
     top: 50%;
