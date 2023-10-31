@@ -64,6 +64,7 @@ button {
     transition: all 0.1s ease;
     box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.75);
     overflow: hidden;
+    touch-action: pan-x pan-y;
 }
 
 button:active {
