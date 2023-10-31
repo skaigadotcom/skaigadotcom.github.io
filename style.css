@@ -15,6 +15,7 @@ body {
 .container {
     user-select: none;
     overflow: hidden;
+	padding-top: 100px;
 }
 
 .content {
