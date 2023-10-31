@@ -79,6 +79,7 @@ button:active {
 img {
     height: 95vh;
     width: 95vw;
+    max-width: 100%;
     object-fit: contain;
     overflow: hidden;
     user-select: none;
