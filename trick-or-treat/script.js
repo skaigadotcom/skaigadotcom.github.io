@@ -46,7 +46,7 @@ document.addEventListener('touchstart', (event) => {
     const x = event.touches[0].clientX;
     const y = event.touches[0].clientY;
     candyEmoji.style.left = x - candyEmoji.offsetWidth / 2 + 'px';
-    candyEmoji.style.top = y + 'px';
+    candyEmoji.style.top = y - candyEmoji.offsetHeight / 1 + 'px';
 
     setTimeout(() => {
         candyEmoji.style.transform = 'scale(2) translateY(100vh)';
