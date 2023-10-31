@@ -45,6 +45,9 @@ body {
         opacity: 1;
         color: darkorange;
     }
+    20% {
+        color: darkred;
+    }
     100% {
         opacity: 0;
         color: black;
