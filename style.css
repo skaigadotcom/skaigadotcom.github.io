@@ -24,11 +24,12 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 100px;
     font-family: 'Creepster';
     color: darkorange;
     text-align: center;
     animation: fadeOut 3s ease-in-out forwards;
+    text-shadow: 0px 0px 5px black;
 }
 
 @keyframes fadeOut {
