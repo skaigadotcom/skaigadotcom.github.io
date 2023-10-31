@@ -6,11 +6,11 @@ const numImages = 34;
 const numGifs = 4;
 
 for (let i = 1; i <= numImages; i++) {
-    images.push(`images/${i}.jpg`);
+    images.push('images/${i}.jpg');
 }
 
 for (let i = 1; i <= numGifs; i++) {
-    images.push(`images/${i}.gif`);
+    images.push('images/${i}.gif');
 }
 
 function getRandomItem(arr) {
@@ -20,7 +20,7 @@ function getRandomItem(arr) {
 function displayRandomImage() {
     const randomImage = getRandomItem(images);
     const imageUrl = window.location.href + randomImage;
-    content.innerHTML = `<img src="${imageUrl}" alt="Image" class="fixed-height">`;
+    content.innerHTML = '<img src="${imageUrl}" alt="Image" class="fixed-height">';
       // Check if the image file extension is ".gif"
     if (randomImage.endsWith('.gif')) {
         // Change the button color to dark red
