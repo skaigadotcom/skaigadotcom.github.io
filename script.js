@@ -45,6 +45,6 @@ document.addEventListener('touchstart', (event) => {
 window.addEventListener('load', function() {
     setTimeout(function() {
         var halloweenMessage = document.getElementById('halloweenMessage');
-        halloweenMessage.style.animation = 'fadeOut 7s ease-in-out forwards';
+        halloweenMessage.style.animation = 'fadeOut 7s linear';
     }, 3000); // animation delay (ms)
 });
