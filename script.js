@@ -20,8 +20,15 @@ function getRandomItem(arr) {
 function displayRandomImage() {
     const randomImage = getRandomItem(images);
     const imageUrl = window.location.href + randomImage;
-
     content.innerHTML = `<img src="${imageUrl}" alt="Image" class="fixed-height">`;
+      // Check if the image file extension is ".gif"
+    if (randomImage.endsWith('.gif')) {
+        // Change the button color to dark red
+        refreshButton.style.backgroundColor = 'darkred';
+    } else {
+        // Reset the button color to its regular color
+        refreshButton.style.backgroundColor = '#FF8C00';
+    }
 }
 
 refreshButton.addEventListener('click', displayRandomImage);
