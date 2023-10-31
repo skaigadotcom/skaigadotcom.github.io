@@ -92,3 +92,8 @@ img {
         transform: translateY(100vh);
     }
 }
+
+:root {
+  touch-action: pan-x pan-y;
+  height: 100% 
+}
