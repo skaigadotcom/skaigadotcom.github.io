@@ -18,6 +18,23 @@ body {
     overflow: hidden;
 }
 
+#halloweenMessage {
+    font-size: 24px;
+    color: orange;
+    text-align: center;
+    animation: fadeOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
+
 button {
     width: 35%;
     height: 100px;
