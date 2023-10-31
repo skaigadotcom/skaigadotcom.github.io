@@ -79,6 +79,8 @@ button:active {
 img {
     height:95vh;
     width:95vw;
+    left: 50%;
+    transform: translateX(-50%);
     object-fit: contain;
     overflow: hidden;
     user-select: none;
