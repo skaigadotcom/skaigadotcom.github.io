@@ -40,3 +40,11 @@ document.addEventListener('touchstart', (event) => {
         candyEmoji.style.opacity = '0';
     }, 2000); // Adjust the duration as needed
 });
+
+// Add the code for the "Happy Halloween from FASO" message here
+window.addEventListener('load', function() {
+    setTimeout(function() {
+        var halloweenMessage = document.getElementById('halloweenMessage');
+        halloweenMessage.style.animation = 'fadeOut 3s ease-in-out forwards';
+    }, 1500); // animation delay (ms)
+});
