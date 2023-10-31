@@ -30,6 +30,8 @@ body {
     text-align: center;
     animation: fadeOut 5s ease-in-out forwards;
     text-shadow: 0px 0px 10px black;
+    max-width: 90%;
+    max-height: 90%
 }
 
 @keyframes fadeOut {
