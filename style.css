@@ -43,9 +43,11 @@ body {
 @keyframes fadeOut {
     0% {
         opacity: 1;
+        color: darkorange;
     }
     100% {
         opacity: 0;
+        color: #ff5349;
         display: none;
     }
 }
