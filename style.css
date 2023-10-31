@@ -25,6 +25,7 @@ body {
     left: 50%;
     font-size: 60px;
     font-weight: bold;
+    font-family: 'Creepster';
     color: darkorange;
     text-align: center;
     animation: fadeOut 3s ease-in-out forwards;
