@@ -40,3 +40,7 @@ document.addEventListener('touchstart', (event) => {
         candyEmoji.style.opacity = '0';
     }, 2000); // Adjust the duration as needed
 });
+
+document.addEventListener('selectstart', function(e) {
+    e.preventDefault();
+});
