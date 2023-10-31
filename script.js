@@ -3,7 +3,7 @@ const refreshButton = document.getElementById('refreshButton');
 
 const images = [];
 const numImages = 34;
-const numGifs = 1;
+const numGifs = 2;
 
 for (let i = 1; i <= numImages; i++) {
     images.push(`images/${i}.jpg`);
