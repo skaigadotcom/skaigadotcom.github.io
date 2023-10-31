@@ -55,7 +55,7 @@ button {
     top: 40px; /* Distance from the bottom of the viewport */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Creepster';
     text-shadow: 0px 0px 3px black;
     border-radius: 40px;
