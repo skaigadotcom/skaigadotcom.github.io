@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-    overflow: hidden;
+    overflow: contain;
     user-select: none;
 }
 
