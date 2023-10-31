@@ -77,8 +77,10 @@ button:active {
 }
 
 img {
+    display: block;
     height: 95vh;
     width: 95vw;
+    margin: 0 auto;
     max-width: 100%;
     object-fit: contain;
     overflow: hidden;
