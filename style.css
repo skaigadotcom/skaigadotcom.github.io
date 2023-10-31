@@ -28,7 +28,7 @@ body {
     font-family: 'Creepster';
     color: darkorange;
     text-align: center;
-    animation: fadeOut 5s ease-in-out forwards;
+    animation: fadeOut 7s ease-in-out forwards;
     text-shadow: 0px 0px 30px black;
     max-width: 90%;
     max-height: 90%
