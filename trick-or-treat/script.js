@@ -11,6 +11,7 @@ for (let i = 1; i <= numImages; i++) {
 
 for (let i = 1; i <= numGifs; i++) {
     images.push(`images/${i}.gif`);
+    images.push(`images/${i}.gif`);
 }
 
 function getRandomItem(arr) {
