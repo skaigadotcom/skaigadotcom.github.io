@@ -72,7 +72,7 @@ button {
     width: 35%;
     height: 100px;
     background-color: #FF8C0050; /* Regular button color (orange) */
-    color: #fff;
+    color: #ffffff80;
     border: none;
     cursor: pointer;
     position: fixed; /* Anchor the button to the bottom of the viewport */
