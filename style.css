@@ -79,7 +79,7 @@ button {
 }
 
 button:active {
-    background-color: #FF6347;
+    background-color: darkred;
 }
 
 img {
