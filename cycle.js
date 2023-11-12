@@ -9,7 +9,6 @@ const words =  ["hope", "fear",
                 "feel", "numb"];
 
 const elem = document.getElementById("cyclical");
-elem.style.overflow = 'hidden';
 
 let currentWordIndex = 0;
 
