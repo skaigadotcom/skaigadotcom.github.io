@@ -146,7 +146,7 @@
   content: attr(data-text);
   text-align: center;
   position: absolute;
-  transform: translateX(+1px);
+  transform: translateX(+1px) skew(-5deg);
   text-shadow: 1px 0 #6eacb7;
   top: 0;
   animation: static-animation-2 15s infinite linear alternate-reverse;
