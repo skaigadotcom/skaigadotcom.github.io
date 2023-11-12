@@ -6,7 +6,7 @@ body {
     background-color: #d8a8a8; /* Dusty Pink color */
 }
 
-header, nav, section, footer {
+header, section, footer {
     margin: 20px;
 }
 
@@ -15,27 +15,13 @@ header {
     font-family: 'Archivo Black', sans-serif;
 }
 
-nav {
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav li {
-    display: inline;
-    margin-right: 10px;
-}
-
 a {
     text-decoration: none;
     color: #333;
 }
 
 section {
+    text-align: center;
     margin-top: 30px;
 }
 
