@@ -13,7 +13,7 @@ header, section, footer {
 header {
     text-align: center;
     font-family: 'Archivo Black', sans-serif;
-    text-shadow: -1px 0 #cc8084, +1px 0 #6eacb7;
+    text-shadow: -5px 0 #cc8084, +5px 0 #6eacb7;
 }
 
 a {
