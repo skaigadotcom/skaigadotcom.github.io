@@ -5,7 +5,7 @@ const words =  ["hope", "fear",
                 "try", "fail",
                 "leap", "fall",
                 "laugh", "cry",
-                "love", "hate"
+                "love", "hate",
                 "feel", "numb"];
 
 const elem = document.getElementById("cyclical");
