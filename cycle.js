@@ -12,4 +12,4 @@ function cycleWords() {
   currentWordIndex = (currentWordIndex + 1) % words.length;
 }
 
-setInterval(cycleWords, 750);
+setInterval(cycleWords, 300);
