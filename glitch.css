@@ -69,11 +69,11 @@
 }
 .glitch::after {
   content: attr(data-text);
-  text-align: center;
   position: absolute;
-  text-shadow: -1px 0 floralwhite;
   top: 0;
-  overflow: hidden;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  text-shadow: -1px 0 floralwhite;
   animation: static-animation 2s infinite linear alternate-reverse;
 }
 
@@ -148,6 +148,5 @@
   position: absolute;
   text-shadow: 1px 0 floralwhite;
   top: 0;
-  overflow: hidden;
   animation: static-animation-2 15s infinite linear alternate-reverse;
 }
