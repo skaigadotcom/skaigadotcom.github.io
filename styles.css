@@ -11,7 +11,7 @@ header, nav, section, footer {
 
 header {
     text-align: center;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Archivo Black', sans-serif; /* Apply the Archivo Black font to the header */
 }
 
 nav {
