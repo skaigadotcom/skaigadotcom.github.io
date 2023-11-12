@@ -69,7 +69,7 @@
 }
 .glitch::after {
   content: attr(data-text);
-  position: absolute;
+  position: relative;
   left: 2px;
   text-shadow: -1px 0 floralwhite;
   top: 0;
@@ -144,7 +144,7 @@
 }
 .glitch::before {
   content: attr(data-text);
-  position: absolute;
+  position: relative;
   left: -2px;
   text-shadow: 1px 0 floralwhite;
   top: 0;
