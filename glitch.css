@@ -72,7 +72,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translateX(-50%) translateX(-1px);
   text-shadow: -1px 0 floralwhite;
   animation: static-animation 2s infinite linear alternate-reverse;
 }
