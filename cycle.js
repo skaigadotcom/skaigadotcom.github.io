@@ -1,4 +1,12 @@
-const words = ["hope", "breathe", "live", "sing", "trust"];
+const words =  ["hope", "fear", 
+                "live", "die", 
+                "sing", "scream", 
+                "trust", "doubt",
+                "try", "fail",
+                "leap", "fall",
+                "laugh", "cry",
+                "love", "hate"
+                "feel", "numb"];
 
 const elem = document.getElementById("cyclical");
 elem.style.overflow = 'hidden';
