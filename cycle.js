@@ -10,13 +10,12 @@ const words =  ["hope", "fear",
 
 const elem = document.getElementById("cyclical");
 
-let currentWordIndex = 0;
-
 function cycleWords() {
-  const currentWord = words[currentWordIndex];
-  elem.innerText = currentWord
-  elem.dataset.text = currentWord
-  currentWordIndex = (currentWordIndex + 1) % words.length;
+  const word = words[w];
+  elem.innerText = word
+  elem.dataset.text = word
+  w = (w + 1) % words.length;
 }
 
+let w = 0;
 setInterval(cycleWords, 300);
